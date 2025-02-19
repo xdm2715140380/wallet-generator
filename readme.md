@@ -24,6 +24,8 @@
 
 3. 输入要生成的钱包数量，回车，即可生成，钱包信息会保存到源码根目录下的wallet-generator.txt文件
 
+4. （非必要）打包 npm run build
+
    ![image-20250219132617867](C:\Users\1\Desktop\wallet-generator\2.png)
 
 ## 打赏

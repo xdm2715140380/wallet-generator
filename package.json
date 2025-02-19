@@ -17,6 +17,9 @@
   "dependencies": {
     "ethers": "5.4"
   },
+  "devDependencies": {
+    "pkg": "5.8.1"
+  },
   "pkg": {
     "targets": [
       "node16-win-x64"
