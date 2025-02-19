@@ -1,4 +1,4 @@
-# wallet-generator
+# web3钱包批量生成
 
 ## 描述
 
@@ -6,7 +6,7 @@
 
 ## 以安装包方式运行
 
-1. 下载安装包点击此处下载
+1. 下载安装包[点击此处](https://github.com/xdm2715140380/wallet-generator/releases/download/Latest/wallet-generator.exe)下载
 
 2. 双击运行
 
