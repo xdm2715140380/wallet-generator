@@ -1,0 +1,29 @@
+{
+  "name": "wallet-generator",
+  "version": "1.0.0",
+  "description": "在本地生成web3钱包（地址:私钥:助记词）",
+  "main": "wallet-generator.js",
+  "bin": "wallet-generator.js",
+  "scripts": {
+    "start": "node wallet-generator.js",
+    "build": "pkg -t node16-win wallet-generator.js"
+  },
+  "keywords": [
+    "wallet",
+    "metamask"
+  ],
+  "author": "xdm",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "5.4"
+  },
+  "pkg": {
+    "targets": [
+      "node16-win-x64"
+    ],
+    "assets": [
+      "node_modules/**/*",
+      "node_modules/ethers/**/*"
+    ]
+  }
+}
